@@ -1,0 +1,146 @@
+:root {
+  /* --main-color: #3498db; */
+  --first-color: #68bdd1;
+  --second-color: #80ca5f;
+  --third-color: #994fba;
+  --bg-icon-hover: #6c757d;
+  --bg-hover: blue;
+}
+
+body {
+  max-width: 1600px;
+  /* background-color: #0001; */
+  /* background-color: #0001; */
+}
+
+/* .navbar {
+  background-color: #99d7d7 !important;
+} */
+
+/* .nav-item:hover {
+  border-radius: 0.2rem;
+  background-color: #0001;
+
+} */
+
+/* seguir aqui */
+/* .account:hover i {
+  color: #fff !important;
+} */
+
+.account:hover {
+  background-color: var(--bg-icon-hover);
+  color: #fff;
+}
+
+.account i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit !important;
+}
+
+.account svg {
+  margin-right: 0.5rem;
+}
+
+.cta,
+.categories-dkp {
+  padding: 0.2rem;
+  color: #fff;
+  /* background-color: var(--second-color); */
+  background-color: #000;
+  /* background-color: orange; */
+}
+
+.categories-dkp {
+  height: auto;
+}
+
+/* .inner-dkp {
+  padding-left: 1rem;
+  padding-right: 1rem;
+} */
+
+.inner-dkp a {
+  border: thin solid #000;
+}
+
+.inner-dkp a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.inner-dkp .dkp-names > *:hover {
+  background-color: var(--bg-icon-hover);
+  border: thin solid #fff;
+}
+
+/* .cta a {
+  color: blue !important;
+} */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-responsive {
+  font-size: calc(0.8em + 0.5vw);
+}
+
+/* Carousel */
+.carousel-indicators {
+  bottom: -10px;
+}
+
+/* home.html */
+.categories {
+  padding: 0 !important;
+}
+
+.categories a {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 14px;
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+}
+
+.categories .categories-title {
+  border-bottom: thin solid var(--bg-icon-hover);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.categories .categories-item:hover {
+  background-color: var(--bg-hover);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* admin */
+th,
+td {
+  text-align: center;
+}
+
+/* tr {
+  display: flex;
+} */
+
+td {
+  word-wrap: break-word;
+  /* max-width: 30vw; */
+}
+
+.actions {
+  white-space: nowrap;
+}
+
+.admin-sections section {
+  margin-bottom: 5rem;
+  /* height: 30vh; */
+}
